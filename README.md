@@ -214,7 +214,7 @@ plugin 'cocoapods-imy-bin'
 use_binaries!
 ```
 
-更具体情况[视频演示](https://github.com/su350380433/iOS_build_share_article/tree/master/video)
+[视频演示](https://github.com/su350380433/iOS_build_share_article/tree/master/video)
 
 ### 4、功能点
 
