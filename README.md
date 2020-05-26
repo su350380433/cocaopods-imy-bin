@@ -350,7 +350,7 @@ cocopods-imy-bin制作二进制podspec不需要模板，会自动去提取源码
   "name": "YYModel",
   "version": "1.0.4.1",
   "source": {
-    "http": "http://ci.meiyou.im:10240/frameworks/YYModel/1.0.4.1/zip",
+    "http": "http://xxx:10240/frameworks/YYModel/1.0.4.1/zip",
     "type": "zip"
   },
   "source_files": "bin_YYModel_1.0.4.1/Headers/*",
@@ -397,7 +397,7 @@ cocopods-imy-bin制作二进制podspec不需要模板，会自动去提取源码
    1. 二进制文件服务器：http://xxx:9192/frameworks/
    2. 二进制私有源仓库：https://xxx/binary_spec_debug_iPhoneos
 3. Release_iPhoneos下是 Release 设置编译的  armv7 arm64。
-   1. 二进制文件服务器：http://ci.meiyou.im:20480/frameworks/
+   1. 二进制文件服务器：http://xxx:20480/frameworks/
    2. 二进制私有源仓库：https://xxx/binary_spec_release_iPhoneos
 
 #### 2、为什么要多套
@@ -491,11 +491,11 @@ use_binaries!
     ],
   #忽略源码存储在git上的组件被制作为二进制组件
     "ignore-git-list": [
-        "git@gitlab.meiyou.com:Github-iOS"
+        "git@xxx:Github-iOS"
     ],
   #忽略源码存储在http上的组件被制作为二进制组件
     "ignore-http-list": [
-        "https://gitlab.meiyou.com/Github-iOS"
+        "https://xxx/Github-iOS"
     ]
 }
 ```
