@@ -250,7 +250,7 @@ Options:
     --source      源码路径，本地路径,会去自动链接本地源码
 ```
 
-效果与演示参考[链接1](https://juejin.im/post/5eccceb9f265da76f30e4e13#heading-48)、[视频](https://github.com/su350380433/cocaopods-imy-bin/blob/master/video/%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%BA%90%E7%A0%81%E8%B0%83%E8%AF%95%E6%BC%94%E7%A4%BA.mp4)
+效果与演示参考[链接1](https://juejin.im/post/5eccceb9f265da76f30e4e13#heading-48)、[视频](https://github.com/su350380433/cocaopods-imy-bin/tree/master/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91)
 
 ### 3、快捷键命令
 
