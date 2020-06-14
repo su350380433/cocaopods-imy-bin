@@ -2,7 +2,7 @@
 
 ## 一、概要
 
-***
+
 cocoapods-imy-bin功能点：
 
  	1. 组件二进制化，`无入侵式`支持组件二进制化，致力于解决Ci打包速度慢、研发编译慢等编译问题。
@@ -22,7 +22,7 @@ cocoapods-imy-bin插件所关联的组件二进制化策略：
 
 ## 二、准备工作
 
-***
+
 
 ### 1、安装插件
 
@@ -32,7 +32,7 @@ sudo gem install cocoapods-imy-bin
 
 ## 三、使用二进制组件
 
-***
+
 
 ### 1、环境搭建
 
@@ -94,7 +94,7 @@ download_file_type: zip
 
 ## 四、制作二进制组件
 
-***
+
 
 [制作二进制演示视频](https://github.com/su350380433/cocaopods-imy-bin/tree/master/video)
 
@@ -159,7 +159,7 @@ use_binaries!
 
 ## 五、扩展功能
 
-***
+
 
 ### 1、本地配置文件 - Podfile_local
 
@@ -297,7 +297,7 @@ hot_key_cmd: pod bin update --no-repo-update
 
 ## 六、 DSL参数解释
 
-***
+
 
 首先，开发者需要在 Podfile 中需要使用 `plugin 'cocoapods-imy-bin'` 语句引入插件 
 
@@ -406,7 +406,7 @@ install! 'cocoapods', { install_with_multi_threads: false }
 
 ## 七、感谢
 
-***
+
 
 **[cocoapods-bin](https://github.com/tripleCC/cocoapods-bin)**
 
