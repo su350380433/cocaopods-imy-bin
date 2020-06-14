@@ -165,7 +165,7 @@ use_binaries!
 
 本地组件配置文件 Podfile_local，目前已支持Podfile下的大部分功能，可以把一些本地配置的语句放到Podfile_local。
 
-<img src="/Users/suliangjin/Library/Application Support/typora-user-images/image-20200607135728202.png" alt="image-20200607135728202" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/su350380433/cocaopods-imy-bin/master/img/Podfile_local.png" style="zoom:50%;" />
 
 场景: 
 
