@@ -36,7 +36,7 @@ sudo gem install cocoapods-imy-bin
 
 ### 1、环境搭建
 
-[环境搭建详细教程]()
+[环境搭建详细教程](https://github.com/su350380433/cocoapods-imy-bin-demo)
 
 使用二进制时，本插件需要提供以下资源：
 
