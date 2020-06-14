@@ -172,15 +172,16 @@ use_binaries!
 1. 不希望把本地采用的源码/二进制配置、本地库传到远程仓库。
 2. 避免直接修改Podfile文件，引起更新代码时冲突、或者误提交。
 
-
+如Podfile本地库的写法：
+```ruby
+pod YYModel :path => '../' #提交的时候往往要修改回来才提交，操作繁琐
+```
 用法：
 
 在与Podfile同级目录下，新增一个`Podfile_local`文件,模板可到这里下载Podfile_local
 
 
 ```ruby
-# 注意！！！ 下载Podfile_local查看下文件是否被自动加上后缀.txt了
-
 #target 'Seeyou' do 不同的项目注意修改下Seeyou的值
 #:path => '../IMYYQHome',根据实际情况自行修改，与之前在podfile写法一致
 
@@ -190,16 +191,16 @@ use_binaries!
 # use_binaries! 
 
 #设置使用【源码】版本的组件。
-#set_use_source_pods ['YYModel','IMYFoundation']
+#set_use_source_pods ['YYKit','SDWebImaage']
 
 #需要替换Podfile里面的组件才写到这里
 #在这里面的所写的组件库依赖，默认切换为【源码】依赖
 target 'Seeyou' do
   #本地库引用
-	#pod 'IMYYQHome', :path => '../IMYYQHome'
+	#pod 'YYModel', :path => '../YYModel'
 
   #覆盖、自定义组件
-  #pod 'IMYVendor', :podspec => 'http://覆盖、自定义/'
+  	#pod 'YYCache', :podspec => 'http://覆盖、自定义/'
 end
 ```
 
